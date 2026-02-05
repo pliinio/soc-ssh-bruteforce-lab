@@ -28,7 +28,7 @@ Tudo foi executado em ambiente isolado e controlado.
 
 O ataque foi realizado a partir da máquina Kali Linux utilizando o **Hydra**, simulando um cenário clássico de brute force em SSH.
 
-[](screenchots/ataque.PNG)
+![Ataque](screenshots/ataque.PNG)
 
 O ataque gera múltiplas falhas de autenticação no servidor, alimentando os logs monitorados pelo SOC.
 
@@ -44,7 +44,7 @@ Critérios utilizados:
 - Análise de volume e recorrência
 - Geração de alerta quando o limiar é excedido
 
-(screenshots/deteccao.PNG)
+![Detecção](screenshots/deteccao.PNG)
 
 ---
 
@@ -68,7 +68,7 @@ O dashboard exibe:
 - Técnicas MITRE detectadas
 - Últimos eventos registrados
 
-(screenshots/dashboard.PNG)
+![Dashboard](screenshots/dashboard.PNG)
 
 ---
 
@@ -81,7 +81,7 @@ Após a confirmação do incidente:
 - O serviço SSH passa a recusar conexões do atacante
 - O evento é registrado para auditoria
 
-(screenshots/ataque_bloqueado.PNG)
+![Bloqueio](screenshots/ataque_bloqueado.PNG)
 
 ---
 
@@ -95,10 +95,7 @@ Após o bloqueio:
 
 Isso valida que a resposta foi eficaz.
 
-(screenshots/validar_bloqueio.PNG)
-
----
-
+![Validação](screenshots/validar_bloqueio.PNG)
 
 ---
 
@@ -135,15 +132,4 @@ Este projeto foi desenvolvido com foco em:
 - Todo o ambiente foi criado **exclusivamente para fins educacionais**
 - A rede utilizada é isolada
 - Nenhuma atividade foi realizada fora do laboratório
-
----
-
-## Próximos Passos (Roadmap)
-
-- Integração com SIEM (ex: Splunk)
-- Correlação de múltiplas fontes de log
-- Alertas automatizados por severidade
-- Expansão para outros vetores de ataque
-
----
 
