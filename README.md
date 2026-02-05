@@ -28,7 +28,7 @@ Tudo foi executado em ambiente isolado e controlado.
 
 O ataque foi realizado a partir da máquina Kali Linux utilizando o **Hydra**, simulando um cenário clássico de brute force em SSH.
 
-(screenchots/ataque.PNG)
+[](screenchots/ataque.PNG)
 
 O ataque gera múltiplas falhas de autenticação no servidor, alimentando os logs monitorados pelo SOC.
 
